@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
+Queue.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+Queue.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
+
+/Users/nathanreed/Desktop/CarbonBlackTest/main.cpp
+iostream
+-
+stack_test.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/stack_test.cpp
+QueueTest.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+
+/Users/nathanreed/Desktop/CarbonBlackTest/stack.cpp
+stack.h
+/Users/nathanreed/Desktop/CarbonBlackTest/stack.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/stack.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/stack_test.cpp
+stack.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/stack.cpp
+
