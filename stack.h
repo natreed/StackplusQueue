@@ -1,20 +1,15 @@
 //
 // Created by Nathan Reed on 2019-03-07.
 //
-using namespace std;
+
 
 #ifndef CARBONBLACKTEST_STACK_H
 #define CARBONBLACKTEST_STACK_H
-#define NULL 0
+#include <iostream>
+#include "Node.h"
 
-class StackNode {
-public:
-    StackNode (int value) {
-        data = value;
-    }
-    int data;
-    StackNode * next;
-};
+using namespace std;
+
 
 class Stack {
 public:
@@ -27,7 +22,7 @@ public:
     void print();
 
 private:
-    StackNode * head;
+    Node * head;
 };
 
 

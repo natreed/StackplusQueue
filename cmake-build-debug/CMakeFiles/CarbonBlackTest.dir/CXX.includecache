@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
 Queue.h
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
+iostream
+-
+Node.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
 Queue.cpp
@@ -29,6 +35,10 @@ stack.h
 /Users/nathanreed/Desktop/CarbonBlackTest/stack.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/stack.h
+iostream
+-
+Node.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/stack_test.cpp
 stack.cpp

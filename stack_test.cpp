@@ -2,44 +2,43 @@
 // Created by Nathan Reed on 2019-03-07.
 //
 #include "stack.cpp"
-int test_push ();
-int test_pop ();
 
-int run_tests () {
-    test_push();
-    test_pop();
-}
+using namespace std;
 
 
-int test_push () {
+
+/**
+ * Compares ordered push values and ordered pop values to verify LIFO.
+ * @return
+ */
+void testPushAndPopLIFO(int size) {
     Stack * test_stack = new Stack();
-    for (int i = 0; i < 6; ++i) {
+    int pushOrder[6];
+    int popOrder[6];
+
+    cout << "TEST - STACK IS LIFO\n";
+    cout << "values added to stack in this order.\n";
+    for (int i = 0; i < size; ++i) {
         test_stack->push(i);
-    }
-
-    test_stack->print();
-
-}
-
-
-int test_pop () {
-    Stack * test_stack = new Stack();
-
-    cout << "values pushed onto stack in this order.\n";
-    for (int i = 0; i < 6; ++i) {
-        test_stack->push(i);
+        pushOrder[i] = i;
         cout << i;
-        cout << "\n";
+        cout << '\n';
     }
 
     cout << "values are removed in reverse order.\n";
-    for (int i = 0; i < 6; ++i) {
-        cout << test_stack->pop();
+    for (int i = 0; i < size; ++i) {
+        int popVal = test_stack->pop();
+        popOrder[i] = popVal;
+        cout << popVal;
         cout << "\n";
     }
 
-    cout << "printed list should be empty.\n";
+    //Assert that arrays contain values in the same order.
+    for (int i = 0; i < size; ++i) {
+        int arraySize = sizeof(popOrder)/(sizeof(int));
+        assert((pushOrder[i] == popOrder[arraySize - i - 1]) && "\nPush and Pop is not LIFO.\n");
+    }
+
+    cout << "printed list should be empty";
     test_stack->print();
-
 }
-

@@ -5,9 +5,9 @@
 #include "stack.h"
 
 int Stack::push(int val) {
-    StackNode * node_to_add = new StackNode(val);
+    Node * node_to_add = new Node(val);
     //push to front of List
-    if (head == NULL) {
+    if (head == nullptr) {
         head = node_to_add;
         node_to_add->next = nullptr;
     }
@@ -15,16 +15,17 @@ int Stack::push(int val) {
         node_to_add->next = head;
         head = node_to_add;
     }
+    return 0;
 }
 
 int Stack::pop() {
     int return_val;
     //TODO: SHOULD NOT return integer here. Need to return some sort of ec.
-    if (head == NULL) {
+    if (head == nullptr) {
         return -1;
     }
     else {
-        StackNode * temp = head->next;
+        Node * temp = head->next;
         return_val = head->data;
         delete head;
         head = temp;
@@ -37,7 +38,7 @@ void Stack::print(){
         return;
     }
     else {
-        StackNode * current = head;
+        Node * current = head;
         while (current) {
             cout << current->data;
             cout << '\n';
