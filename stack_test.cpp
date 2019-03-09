@@ -6,21 +6,19 @@
 
 using namespace std;
 
-
-
 /**
  * Compares ordered push values and ordered pop values to verify LIFO.
  * @return
  */
 void testPushAndPopLIFO(int size) {
-    Stack * test_stack = new Stack();
+    Stack * testStack = new Stack();
     int pushOrder[6];
     int popOrder[6];
 
     cout << "TEST - STACK IS LIFO\n";
     cout << "values added to stack in this order.\n";
     for (int i = 0; i < size; ++i) {
-        test_stack->push(i);
+        testStack->push(i);
         pushOrder[i] = i;
         cout << i;
         cout << '\n';
@@ -28,7 +26,7 @@ void testPushAndPopLIFO(int size) {
 
     cout << "values are removed in reverse order.\n";
     for (int i = 0; i < size; ++i) {
-        int popVal = test_stack->pop();
+        int popVal = testStack->pop();
         popOrder[i] = popVal;
         cout << popVal;
         cout << "\n";
@@ -41,5 +39,6 @@ void testPushAndPopLIFO(int size) {
     }
 
     cout << "printed list should be empty";
-    test_stack->print();
+    testStack->print();
+    delete testStack;
 }

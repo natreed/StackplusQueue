@@ -1,7 +1,6 @@
 //
 // Created by Nathan Reed on 2019-03-07.
 //
-
 #include "stack.h"
 
 int Stack::push(int val) {
