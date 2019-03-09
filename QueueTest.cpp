@@ -1,6 +1,7 @@
 //
 // Created by Nathan Reed on 2019-03-07.
 //
+#include <cassert>
 #include "Queue.cpp"
 using namespace std;
 
