@@ -17,6 +17,7 @@ public:
         tail = nullptr;
         type = _type;
     }
+
     ~List() {
         if (head == nullptr) {
             return;

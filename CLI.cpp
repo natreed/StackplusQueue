@@ -111,6 +111,10 @@ bool CommandLineInterface::validateCommand(Command command) {
             cout << "Invalid data. Must be integer.\n";
             return false;
         }
+        catch (out_of_range &){
+            cout << "Integer is out of range. Must be a uint_64 or smaller.";
+            return false;
+        }
         return true;
     } else if (command.cmd == "get") {
         return true;

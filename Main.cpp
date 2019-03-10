@@ -1,4 +1,9 @@
-#include <iostream>
+//
+// Created by Nathan Reed on 2019-03-10.
+/**
+ * This small application
+ */
+
 #include "StackTest.cpp"
 #include "QueueTest.cpp"
 #include "CLI.cpp"
