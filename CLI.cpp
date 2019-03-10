@@ -119,5 +119,6 @@ bool CommandLineInterface::validateCommand(Command command) {
         return true;
     } else {
         cout << "Invalid command. Please use 'put <integer>', 'get' or 'q' to return to main menue.\n";
+        return false;
     }
 }
