@@ -17,6 +17,18 @@ public:
         tail = nullptr;
         type = _type;
     }
+    ~List() {
+        if (head == nullptr) {
+            return;
+        }
+        Node * previous = head;
+        Node * current = head;
+        while (current) {
+            current = current->next;
+            delete previous;
+            previous = current;
+        }
+    }
 
     int addFront(int);
 

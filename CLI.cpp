@@ -21,7 +21,6 @@ int CommandLineInterface::runStack() {
         }
         if (command.cmd == "put") {
             string to_push = command.arg;
-
             stack->push(stoi(to_push));
         } else if (command.cmd == "get") {
             try {
@@ -39,7 +38,6 @@ int CommandLineInterface::runStack() {
         cout << "Current Stack: ";
         stack->print();
         cout << '\n';
-
     } while (!quit);
     delete stack;
     return 0;
