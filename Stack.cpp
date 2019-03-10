@@ -1,16 +1,15 @@
 //
 // Created by Nathan Reed on 2019-03-07.
 //
-#include "stack.h"
+#include "Stack.h"
 
 int Stack::push(int val) {
-    Node * node_to_add = new Node(val);
+    Node *node_to_add = new Node(val);
     //push to front of List
     if (head == nullptr) {
         head = node_to_add;
         node_to_add->next = nullptr;
-    }
-    else {
+    } else {
         node_to_add->next = head;
         head = node_to_add;
     }
@@ -19,12 +18,11 @@ int Stack::push(int val) {
 
 int Stack::pop() {
     int return_val;
-    //TODO: SHOULD NOT return integer here. Need to return some sort of ec.
+    string err =
     if (head == nullptr) {
-        return -1;
-    }
-    else {
-        Node * temp = head->next;
+        throw std::string("Queue is Empty.");
+    } else {
+        Node *temp = head->next;
         return_val = head->data;
         delete head;
         head = temp;
@@ -32,16 +30,18 @@ int Stack::pop() {
     return return_val;
 }
 
-void Stack::print(){
+string Stack::print() {
+    string output = "";
     if (head == nullptr) {
-        return;
-    }
-    else {
+        return output;
+    } else {
         Node * current = head;
         while (current) {
-            cout << current->data;
-            cout << '\n';
+            output += to_string(current->data) + "/n";
             current = current->next;
         }
     }
+    cout << output;
+
+    return output;
 }

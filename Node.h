@@ -4,14 +4,16 @@
 
 #ifndef CARBONBLACKTEST_NODE_H
 #define CARBONBLACKTEST_NODE_H
+
 class Node {
 public:
-    Node (int value) {
+    Node(int value) {
         data = value;
         next = nullptr;
     }
+
     int data;
-    Node * next;
+    Node *next;
 };
 
 #endif //CARBONBLACKTEST_NODE_H

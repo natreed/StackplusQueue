@@ -4,6 +4,7 @@
 
 #ifndef CARBONBLACKTEST_QUEUE_H
 #define CARBONBLACKTEST_QUEUE_H
+
 #include <iostream>
 #include "Node.h"
 
@@ -11,18 +12,20 @@ using namespace std;
 
 class Queue {
 public:
-    Queue () {
+    Queue() {
         head = nullptr;
         tail = nullptr;
     }
 
     int enQueue(int);
+
     int deQueue();
-    void print();
+
+    string print();
 
 private:
-    Node * head;
-    Node * tail;
+    Node *head;
+    Node *tail;
 };
 
 #endif //CARBONBLACKTEST_QUEUE_H

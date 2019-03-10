@@ -3,4 +3,4 @@ project(CarbonBlackTest)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(CarbonBlackTest main.cpp)
+add_executable(CarbonBlackTest Main.cpp)

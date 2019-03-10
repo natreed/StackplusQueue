@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CarbonBlackTest.dir/main.cpp.o"
+  "CMakeFiles/CarbonBlackTest.dir/Main.cpp.o"
   "CarbonBlackTest.pdb"
   "CarbonBlackTest"
 )

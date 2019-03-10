@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nathanreed/Desktop/CarbonBlackTest/main.cpp">
+		<Unit filename="/Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp">
 			<Option target="CarbonBlackTest"/>
 		</Unit>
 		<Unit filename="/Users/nathanreed/Desktop/CarbonBlackTest/CMakeLists.txt">

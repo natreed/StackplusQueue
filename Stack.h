@@ -5,6 +5,7 @@
 
 #ifndef CARBONBLACKTEST_STACK_H
 #define CARBONBLACKTEST_STACK_H
+
 #include <iostream>
 #include "Node.h"
 
@@ -13,22 +14,19 @@ using namespace std;
 
 class Stack {
 public:
-    Stack () {
+    Stack() {
         head = NULL;
     }
 
     int push(int);
+
     int pop();
-    void print();
+
+    string print();
 
 private:
-    Node * head;
+    Node *head;
 };
-
-
-
-
-
 
 
 #endif //CARBONBLACKTEST_STACK_H

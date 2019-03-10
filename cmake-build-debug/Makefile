@@ -123,32 +123,32 @@ CarbonBlackTest/fast:
 	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/build
 .PHONY : CarbonBlackTest/fast
 
-main.o: main.cpp.o
+Main.o: Main.cpp.o
 
-.PHONY : main.o
+.PHONY : Main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/main.cpp.o
-.PHONY : main.cpp.o
+Main.cpp.o:
+	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/Main.cpp.o
+.PHONY : Main.cpp.o
 
-main.i: main.cpp.i
+Main.i: Main.cpp.i
 
-.PHONY : main.i
+.PHONY : Main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/main.cpp.i
-.PHONY : main.cpp.i
+Main.cpp.i:
+	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/Main.cpp.i
+.PHONY : Main.cpp.i
 
-main.s: main.cpp.s
+Main.s: Main.cpp.s
 
-.PHONY : main.s
+.PHONY : Main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/main.cpp.s
-.PHONY : main.cpp.s
+Main.cpp.s:
+	$(MAKE) -f CMakeFiles/CarbonBlackTest.dir/build.make CMakeFiles/CarbonBlackTest.dir/Main.cpp.s
+.PHONY : Main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CarbonBlackTest"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 .PHONY : help
 
 

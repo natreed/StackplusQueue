@@ -1,12 +1,13 @@
 #include <iostream>
-#include "stack_test.cpp"
+#include "StackTest.cpp"
 #include "QueueTest.cpp"
-
-using namespace std;
+#include "List.cpp"
 
 int main() {
+    cout << "Stack Tests\n\n";
     testPushAndPopLIFO(6);
     cout << "\n\nQueue Tests\n\n";
     testEnqueueDequeueFIFO(6);
+    testDequeueEmptyQueue();
     return 0;
 }

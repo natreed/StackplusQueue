@@ -57,27 +57,27 @@ include CMakeFiles/CarbonBlackTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CarbonBlackTest.dir/flags.make
 
-CMakeFiles/CarbonBlackTest.dir/main.cpp.o: CMakeFiles/CarbonBlackTest.dir/flags.make
-CMakeFiles/CarbonBlackTest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nathanreed/Desktop/CarbonBlackTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CarbonBlackTest.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarbonBlackTest.dir/main.cpp.o -c /Users/nathanreed/Desktop/CarbonBlackTest/main.cpp
+CMakeFiles/CarbonBlackTest.dir/Main.cpp.o: CMakeFiles/CarbonBlackTest.dir/flags.make
+CMakeFiles/CarbonBlackTest.dir/Main.cpp.o: ../Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nathanreed/Desktop/CarbonBlackTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CarbonBlackTest.dir/Main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarbonBlackTest.dir/Main.cpp.o -c /Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp
 
-CMakeFiles/CarbonBlackTest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarbonBlackTest.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nathanreed/Desktop/CarbonBlackTest/main.cpp > CMakeFiles/CarbonBlackTest.dir/main.cpp.i
+CMakeFiles/CarbonBlackTest.dir/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarbonBlackTest.dir/Main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp > CMakeFiles/CarbonBlackTest.dir/Main.cpp.i
 
-CMakeFiles/CarbonBlackTest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarbonBlackTest.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nathanreed/Desktop/CarbonBlackTest/main.cpp -o CMakeFiles/CarbonBlackTest.dir/main.cpp.s
+CMakeFiles/CarbonBlackTest.dir/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarbonBlackTest.dir/Main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp -o CMakeFiles/CarbonBlackTest.dir/Main.cpp.s
 
 # Object files for target CarbonBlackTest
 CarbonBlackTest_OBJECTS = \
-"CMakeFiles/CarbonBlackTest.dir/main.cpp.o"
+"CMakeFiles/CarbonBlackTest.dir/Main.cpp.o"
 
 # External object files for target CarbonBlackTest
 CarbonBlackTest_EXTERNAL_OBJECTS =
 
-CarbonBlackTest: CMakeFiles/CarbonBlackTest.dir/main.cpp.o
+CarbonBlackTest: CMakeFiles/CarbonBlackTest.dir/Main.cpp.o
 CarbonBlackTest: CMakeFiles/CarbonBlackTest.dir/build.make
 CarbonBlackTest: CMakeFiles/CarbonBlackTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nathanreed/Desktop/CarbonBlackTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CarbonBlackTest"

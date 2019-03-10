@@ -3,15 +3,13 @@
 //
 #include "Queue.h"
 
-using namespace std;
 
 int Queue::enQueue(int to_add) {
-    Node * qnode = new Node(to_add);
+    Node *qnode = new Node(to_add);
     if (head == nullptr) {
         head = qnode;
         tail = qnode;
-    }
-    else {
+    } else {
         tail->next = qnode;
         tail = tail->next;
     }
@@ -20,12 +18,10 @@ int Queue::enQueue(int to_add) {
 
 int Queue::deQueue() {
     int returnVal;
-    //TODO: SHOULD NOT return integer here. Need to return some sort of ec.
     if (head == nullptr) {
-        return -1;
-    }
-    else {
-        Node * temp = head->next;
+        throw string("Queue is Empty.");
+    } else {
+        Node *temp = head->next;
         returnVal = head->data;
         delete head;
         head = temp;
@@ -33,17 +29,18 @@ int Queue::deQueue() {
     return returnVal;
 }
 
-void Queue::print(){
+string Queue::print() {
+    string output = "";
     if (head == nullptr) {
-        return;
-    }
-    else {
-        Node * current = head;
+        return output;
+    } else {
+        Node *current = head;
         while (current) {
-            cout << current->data;
-            cout << '\n';
+            output += to_string(current->data) + "\n";
             current = current->next;
         }
     }
+    cout << output;
+    return output;
 }
 

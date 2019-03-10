@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp
+iostream
+-
+StackTest.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
+QueueTest.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+
 /Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
@@ -19,28 +27,24 @@ Node.h
 /Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+cassert
+-
 Queue.cpp
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
 
-/Users/nathanreed/Desktop/CarbonBlackTest/main.cpp
-iostream
--
-stack_test.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/stack_test.cpp
-QueueTest.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/Stack.cpp
+Stack.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Stack.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/stack.cpp
-stack.h
-/Users/nathanreed/Desktop/CarbonBlackTest/stack.h
-
-/Users/nathanreed/Desktop/CarbonBlackTest/stack.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Stack.h
 iostream
 -
 Node.h
 /Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/stack_test.cpp
-stack.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/stack.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
+cassert
+-
+Stack.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/Stack.cpp
 
