@@ -21,13 +21,14 @@ public:
         if (head == nullptr) {
             return;
         }
-        Node * previous = head;
+        tail = nullptr;
         Node * current = head;
         while (current) {
             current = current->next;
-            delete previous;
-            previous = current;
+            delete head;
+            head = current;
         }
+        head = nullptr;
     }
 
     int addFront(int);

@@ -5,7 +5,7 @@
 
 
 int CommandLineInterface::runStack() {
-    Stack *stack = new Stack();
+    Stack * stack = new Stack();
     Command command;
     cout << "The stack holds integer values only.\n";
     cout << "Commands are 'put <integer>' and 'get.\n";
@@ -33,13 +33,13 @@ int CommandLineInterface::runStack() {
             }
         } else if (command.cmd == "q") {
             quit = true;
-            continue;
         }
         cout << "Current Stack: ";
         stack->print();
         cout << '\n';
     } while (!quit);
     delete stack;
+    stack = nullptr;
     return 0;
 }
 
@@ -73,7 +73,6 @@ int CommandLineInterface::runQueue() {
             }
         } else if (command.cmd == "q") {
             quit = true;
-            continue;
         }
         cout << "Current Queue: ";
         queue->print();
