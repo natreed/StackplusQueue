@@ -7,7 +7,7 @@
 
 class Node {
 public:
-    Node(int value) {
+    explicit Node(int value) {
         data = value;
         next = nullptr;
     }

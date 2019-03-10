@@ -4,20 +4,32 @@
 
 #ifndef CARBONBLACKTEST_LIST_H
 #define CARBONBLACKTEST_LIST_H
+
 #include "Node.h"
+
+using namespace std;
+
 
 class List {
 public:
-    List () {
+    List(string _type) {
         head = nullptr;
+        tail = nullptr;
+        type = _type;
     }
 
-    int add_node(int);
-    int remove_node();
+    int addFront(int);
+
+    int addBack(int);
+
+    int removeFront();
+
     string print();
 
 private:
-    Node * head;
+    string type;
+    Node *head;
+    Node *tail;
 };
 
 

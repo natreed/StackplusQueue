@@ -10,7 +10,6 @@
  */
 void testEnqueue() {
     Queue *testQueue = new Queue();
-    //Check head is NULL before enQueue is called.
 
     for (int i = 0; i < 6; ++i) {
         testQueue->enQueue(i);
@@ -33,16 +32,14 @@ void testEnqueueDequeueFIFO(int size) {
     for (int i = 0; i < size; ++i) {
         testQueue->enQueue(i);
         enqOrder[i] = i;
-        cout << i;
-        cout << '\n';
+        cout << to_string(i) + ' ';
     }
 
     cout << "Values are removed in same order.\n";
     for (int i = 0; i < size; ++i) {
         int deqVal = testQueue->deQueue();
         deqOrder[i] = deqVal;
-        cout << deqVal;
-        cout << "\n";
+        cout << to_string(deqVal) + ' ';
     }
 
     //Assert that arrays contain values in the same order.
@@ -51,28 +48,25 @@ void testEnqueueDequeueFIFO(int size) {
     }
 
     cout << "printed list should be empty.\n";
-    string printOutput;
-    cin >> printOutput;
-    assert(printOutput == "" );
-    cout << "PASS";
+    string printOutput = testQueue->print();
+    assert(printOutput == "");
+    cout << "PASS\n\n";
     delete testQueue;
 }
 
 /**
- * Tests dequeue
+ * Tests dequeue on Empty Queue.
  */
 void testDequeueEmptyQueue() {
     cout << "\nTEST - DEQUEUE on EMPTY/NULL QUEUE\n";
-    int result;
     Queue *testQueue = new Queue();
     try {
         testQueue->deQueue();
     }
-    catch (string e) {
-        assert(e == "Queue is Empty.");
+    catch (string &e) {
+        assert(e == "Queue is Empty.\n");
     }
-    cout << "PASS";
+    cout << "PASS\n\n";
     //Memory will be freed if program terminates
     delete testQueue;
 }
-

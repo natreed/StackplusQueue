@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/Users/nathanreed/Desktop/CarbonBlackTest/CLI.cpp
+CommandLineInterface.h
+/Users/nathanreed/Desktop/CarbonBlackTest/CommandLineInterface.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/CommandLineInterface.h
+iostream
+-
+
+/Users/nathanreed/Desktop/CarbonBlackTest/List.cpp
+List.h
+/Users/nathanreed/Desktop/CarbonBlackTest/List.h
+
+/Users/nathanreed/Desktop/CarbonBlackTest/List.h
+Node.h
+/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+
 /Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp
 iostream
 -
@@ -13,6 +29,8 @@ StackTest.cpp
 /Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
 QueueTest.cpp
 /Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+CLI.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/CLI.cpp
 
 /Users/nathanreed/Desktop/CarbonBlackTest/Node.h
 
@@ -23,8 +41,8 @@ Queue.h
 /Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
 iostream
 -
-Node.h
-/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+List.cpp
+/Users/nathanreed/Desktop/CarbonBlackTest/List.cpp
 
 /Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
 cassert
@@ -39,8 +57,8 @@ Stack.h
 /Users/nathanreed/Desktop/CarbonBlackTest/Stack.h
 iostream
 -
-Node.h
-/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+List.h
+/Users/nathanreed/Desktop/CarbonBlackTest/List.h
 
 /Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
 cassert

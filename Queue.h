@@ -6,26 +6,17 @@
 #define CARBONBLACKTEST_QUEUE_H
 
 #include <iostream>
-#include "Node.h"
+#include "List.cpp"
 
 using namespace std;
 
-class Queue {
+class Queue : public List {
 public:
-    Queue() {
-        head = nullptr;
-        tail = nullptr;
-    }
+    Queue() : List("Queue") {}
 
     int enQueue(int);
 
     int deQueue();
-
-    string print();
-
-private:
-    Node *head;
-    Node *tail;
 };
 
 #endif //CARBONBLACKTEST_QUEUE_H

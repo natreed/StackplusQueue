@@ -7,25 +7,17 @@
 #define CARBONBLACKTEST_STACK_H
 
 #include <iostream>
-#include "Node.h"
+#include "List.h"
 
 using namespace std;
 
-
-class Stack {
+class Stack : public List {
 public:
-    Stack() {
-        head = NULL;
-    }
+    Stack() : List("Stack") {}
 
-    int push(int);
+    int push(int to_add);
 
     int pop();
-
-    string print();
-
-private:
-    Node *head;
 };
 
 

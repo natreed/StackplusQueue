@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CarbonBlackTest.dir/Main.cpp.o"
-  "CarbonBlackTest.pdb"
-  "CarbonBlackTest"
-)
+        "CMakeFiles/CarbonBlackTest.dir/Main.cpp.o"
+        "CarbonBlackTest.pdb"
+        "CarbonBlackTest"
+        )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/CarbonBlackTest.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+foreach (lang CXX)
+    include(CMakeFiles/CarbonBlackTest.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach ()
