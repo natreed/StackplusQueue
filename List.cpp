@@ -6,18 +6,18 @@
 /**
  * Adds integer to front of List.
  * Reason: Follows LIFO for Stack::push.
- * @param to_add
+ * @param toAdd
  * @return
  */
-int List::addFront(int to_add) {
-    Node *node_to_add = new Node(to_add);
+int List::addFront(int toAdd) {
+    Node *sNode = new Node(toAdd);
     //push to front of List
     if (head == nullptr) {
-        head = node_to_add;
+        head = sNode;
         tail = head;
     } else {
-        node_to_add->next = head;
-        head = node_to_add;
+        sNode->next = head;
+        head = sNode;
     }
     return 0;
 }
@@ -29,12 +29,12 @@ int List::addFront(int to_add) {
  * @return
  */
 int List::addBack(int to_add) {
-    Node *qnode = new Node(to_add);
+    Node *qNode = new Node(to_add);
     if (head == nullptr) {
-        head = qnode;
-        tail = qnode;
+        head = qNode;
+        tail = qNode;
     } else {
-        tail->next = qnode;
+        tail->next = qNode;
         tail = tail->next;
     }
     return 0;
@@ -62,7 +62,7 @@ int List::removeFront() {
  * @return
  */
 string List::print() {
-    string output = "";
+    string output;
     if (head == nullptr) {
         return output;
     } else {

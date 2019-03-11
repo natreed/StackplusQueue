@@ -6,61 +6,61 @@
 
 #IncludeRegexTransform: 
 
-/Users/nathanreed/Desktop/CarbonBlackTest/CLI.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/CLI.cpp
 CommandLineInterface.h
-/Users/nathanreed/Desktop/CarbonBlackTest/CommandLineInterface.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/CommandLineInterface.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/CommandLineInterface.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/CommandLineInterface.h
 iostream
 -
 
-/Users/nathanreed/Desktop/CarbonBlackTest/List.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/List.cpp
 List.h
-/Users/nathanreed/Desktop/CarbonBlackTest/List.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/List.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/List.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/List.h
 Node.h
-/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Node.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Main.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/Main.cpp
 StackTest.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/StackTest.cpp
 QueueTest.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/QueueTest.cpp
 CLI.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/CLI.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/CLI.cpp
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Node.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Node.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/Queue.cpp
 Queue.h
-/Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Queue.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Queue.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Queue.h
 iostream
 -
 List.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/List.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/List.cpp
 
-/Users/nathanreed/Desktop/CarbonBlackTest/QueueTest.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/QueueTest.cpp
 cassert
 -
 Queue.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/Queue.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/Queue.cpp
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Stack.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/Stack.cpp
 Stack.h
-/Users/nathanreed/Desktop/CarbonBlackTest/Stack.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Stack.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/Stack.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/Stack.h
 iostream
 -
 List.h
-/Users/nathanreed/Desktop/CarbonBlackTest/List.h
+/Users/nathanreed/Desktop/cb/StackplusQueue/List.h
 
-/Users/nathanreed/Desktop/CarbonBlackTest/StackTest.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/StackTest.cpp
 cassert
 -
 Stack.cpp
-/Users/nathanreed/Desktop/CarbonBlackTest/Stack.cpp
+/Users/nathanreed/Desktop/cb/StackplusQueue/Stack.cpp
 

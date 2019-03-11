@@ -20,7 +20,7 @@ int main() {
 }
 
 void mainMenu() {
-    CommandLineInterface *CLI = new CommandLineInterface;
+    CommandLineInterface *CLI = new CommandLineInterface();
     bool exit;
     do {
         exit = false;

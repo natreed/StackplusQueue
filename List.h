@@ -12,7 +12,7 @@ using namespace std;
 
 class List {
 public:
-    List(string _type) {
+    explicit List(const string & _type) {
         head = nullptr;
         tail = nullptr;
         type = _type;
@@ -29,7 +29,6 @@ public:
             delete head;
             head = current;
         }
-        head = nullptr;
     }
 
     int addFront(int);
